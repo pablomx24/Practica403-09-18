@@ -25,6 +25,7 @@ public class Practica4 {
     }
     public static void Update1PM(){
         System.out.println("va el primer Update");
+        System.out.println("Esta es mi Segunda UpdatePM");
     }
     
 }
