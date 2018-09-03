@@ -16,11 +16,15 @@ public class Practica4 {
      */
     public static void main(String[] args) {
        saludoteam();
+       Update1PM();
         
     }
     public static void saludoteam(){
     
      System.out.println("Hello team !!!");
+    }
+    public static void Update1PM(){
+        System.out.println("va el primer Update");
     }
     
 }
