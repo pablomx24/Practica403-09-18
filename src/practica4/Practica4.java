@@ -17,7 +17,8 @@ public class Practica4 {
     public static void main(String[] args) {
        saludoteam();
        Update1PM();
-        
+       Update1CAHG();
+       Update2CAHG(); 
     }
     public static void saludoteam(){
     
@@ -30,6 +31,10 @@ public class Practica4 {
     
     public static void Update1CAHG(){
         System.out.println("Actualizado");
+    }
+    
+    public static void Update2CAHG(){
+        System.out.println("Segunda Actualizacion");
     }
     
 }
