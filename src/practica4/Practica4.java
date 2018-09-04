@@ -22,7 +22,7 @@ public class Practica4 {
     }
     public static void saludoteam(){
     
-     System.out.println("Hello team !!!");
+     System.out.println("No pudo El Brian !!!");
     }
     public static void Update1PM(){
         System.out.println("va el primer Update");
