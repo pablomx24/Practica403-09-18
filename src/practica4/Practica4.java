@@ -27,4 +27,8 @@ public class Practica4 {
         System.out.println("va el primer Update");
     }
     
+    public static void Update1CAHG(){
+        System.out.println("Actualizado");
+    }
+    
 }
