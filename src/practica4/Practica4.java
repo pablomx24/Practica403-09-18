@@ -5,6 +5,8 @@
  */
 package practica4;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Carlos Hernandez
@@ -19,6 +21,7 @@ public class Practica4 {
        Update1PM();
        Update1CAHG();
        Update2CAHG(); 
+       sumaCarlos();
     }
     public static void saludoteam(){
     
@@ -35,6 +38,25 @@ public class Practica4 {
     
     public static void Update2CAHG(){
         System.out.println("Segunda Actualizacion");
+    }
+    
+    public static void sumaCarlos(){
+        
+        int x = 0;
+        int y = 0;
+        
+        System.out.print("Ingrese un numero: \n>> ");
+        Scanner dato1 = new Scanner (System.in);
+        x = dato1.nextInt();
+        
+        System.out.print("Ingrese otro numero: \n>> ");
+        Scanner dato2 = new Scanner (System.in);
+        y = dato2.nextInt();
+        
+        int resultado = x + y;
+        
+        
+        System.out.println("El resultado de la suma es: \n" + resultado);
     }
     
 }
